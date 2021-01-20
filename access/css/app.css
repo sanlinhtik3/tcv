@@ -1,0 +1,208 @@
+@font-face {
+    font-family: mm;
+    src: url("../vendor/MyanmarSagar/MyanmarSagar.ttf");
+}
+*{
+    font-family: "Josefin Sans","mm";
+    /*font-family: mm;*/
+}
+.bg-image{
+    background: url("../img/bg.jpg")!important;
+    background-size: cover!important;
+    background-repeat: no-repeat!important;
+    /*background-position: center!important;*/
+    background-attachment: fixed!important;
+}
+.bg-blur{
+    background-color: #00000030!important;
+    backdrop-filter: blur(10px)!important;
+    border: 1px solid #ffffff20!important;
+    border-radius: 15px!important;
+}
+.card-icon-1{
+    width: 80px;
+    height: 80px;
+    background-color: #fff4d9;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cus-card{
+    border-radius: 15px !important;
+    border: 1px solid #e9f1f7 !important;
+    box-shadow: 0 .5rem 1rem rgba(0,125,255,.05)!important;
+    transition: 0.5s;
+    /*cursor: pointer;*/
+}
+
+.bg-dark-1{
+    background-color: #18191A!important;
+}
+.bg-dark-2{
+    background-color: #242526!important;
+}
+.bg-dark-3{
+    background-color: #3A3B3C!important;
+}
+.bg-dark-4{
+    background-color: #4E464B!important;
+}
+.bg-dark-5{
+    background-color: #B0B3B8!important;
+}
+
+
+.text-1{
+    color: #4386f4!important;
+}
+.bg-1{
+    background-color: #e8f0fe!important;
+    color: #4386f4!important;
+}
+
+.text-2{
+    color: #d93025!important;
+}
+.bg-2{
+    background-color: #fce8e6!important;
+    color: #d93025!important;
+}
+
+.text-3{
+    color: #1e8e3e!important;
+}
+.bg-3{
+    background-color: #e6f4ea!important;
+    color: #1e8e3e!important;
+}
+
+.text-4{
+    color: #e8710a!important;
+}
+.bg-4{
+    background-color: #feefe3!important;
+    color: #e8710a!important;
+}
+.bg-ps{
+    background-color: #001833!important;
+    color: #2daaff!important;
+}
+
+
+.cus-rounded{
+    border-radius: 15px !important;
+}
+.o-n:focus{outline: none;!important;box-shadow: none!important;}
+
+._content{
+    overflow-y: scroll!important;
+}
+
+::-webkit-scrollbar{
+    width: 0px!important;
+}
+::-webkit-scrollbar-thumb{
+    background-color: transparent!important;
+}
+
+/*site nav*/
+
+._z-i-2000{
+    z-index: 2001!important;
+}
+._rounded-circle{
+    width: 30px!important;
+    height: 30px!important;
+    display: flex!important;
+    justify-content: center!important;
+    align-items: center!important;
+    padding: 5px!important;
+    border-radius: 50%!important;
+    z-index: 2000!important;
+    background-color: #0d6efd!important;
+}
+
+.site-nav{
+    position: absolute!important;
+    top: 0!important;
+    z-index: 50!important;
+}
+
+.site-nav-scroll{
+    position: fixed!important;
+    background-color: white!important;
+    box-shadow: 0 .125rem .25rem rgba(0,0,0,.075)!important;
+    animation: toShow 0.5s linear!important;
+}
+.nav-blur{
+    background-color: #00000000!important;
+    backdrop-filter: blur(10px)!important;
+    box-shadow: 0 .5rem 1rem rgba(255,255,255,.05)!important;
+}
+
+@keyframes toShow {
+    from{
+        transform: translateY(-200px);
+    }to{
+         transform: translateY(0);
+     }
+}
+
+.site-nav-scroll .site-title{
+    display: block!important;
+}
+.mt-top{
+    margin-top: 80px!important;
+}
+.icon-d{
+    width: 50px!important;
+    height: 50px!important;
+    background-color: #007bff!important;
+    border-radius: 10px!important;
+    padding: 10px!important;
+    display: flex!important;
+    justify-content: center!important;
+    align-items: center!important;
+    font-size: 30px!important;
+}
+
+.modal.show{
+    background-color: #00000000!important;
+    backdrop-filter: blur(10px)!important;
+}
+.modal-content{
+    background-color: #00000060!important;
+    backdrop-filter: blur(10px)!important;
+    border: 1px solid #ffffff20!important;
+    border-radius: 15px!important;
+}
+
+/*pagePili*/
+
+#pp-nav li .active span, .pp-slidesNav .active span {
+    background: #007bff!important;
+}
+#pp-nav span, .pp-slidesNav span {
+    top: 2px;
+    left: 2px;
+    width: 8px;
+    height: 8px;
+    border: 1px solid #000;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 1;
+    background-color: #ffffff!important;
+}
+
+.cus-fixed{
+    bottom: 50px!important;
+    right: 30px!important;
+}
+@media screen and (max-width: 576px) {
+    .cus-fixed{
+        bottom: 15px!important;
+        right: 15px!important;
+    }
+}
